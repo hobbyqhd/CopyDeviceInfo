@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *inputbox_1;
+@property (weak, nonatomic) IBOutlet UITextField *mem;
+@property (weak, nonatomic) IBOutlet UITextField *fenbianlv;
+@property (weak, nonatomic) IBOutlet UITextField *dianliang;
+@property (weak, nonatomic) IBOutlet UITextField *uuid;
 
 @end
 
